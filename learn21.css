@@ -59,6 +59,8 @@ a.white { color: white; }
 .bg-darkgreen { background: #007935; }
 .bg-brown { background: #633511; }
 .blue { color: #0085F1; }
+.facebook { color: #3b5998; }
+.youtube { color: #ff0400; }
 
 /* layout */
 
@@ -105,6 +107,7 @@ flex-wrap { flex-wrap: wrap; }
 .mb2 { margin-bottom: 1rem; }
 .mb3 { margin-bottom: 2rem; }
 .mb4 { margin-bottom: 4rem; }
+.pr1 { padding-right: .5rem; }
 .p2 { padding: 1rem; }
 .p4 { padding: 4rem; }
 .pb1 { padding-bottom: .5rem; }
