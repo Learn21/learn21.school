@@ -98,6 +98,7 @@ flex-wrap { flex-wrap: wrap; }
 .h-100vh { height: 100vh; }
 .rounded { border-radius: 0.25rem; }
 .overflow-hidden { overflow: hidden; }
+.muted { opacity: 0.6; }
 
 /* whitespace */
 
