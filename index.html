@@ -3,21 +3,29 @@
 <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 <meta content="width=device-width, minimum-scale=1.0, viewport-fit=cover" name="viewport" />
-<div class="bg-blue white flex flex-column justify-center align-center" style="padding: 5rem 2rem">
+<script>
+  function school(x) { x.value && (window.location.href = x.value) }
+</script>
+<div class="bg-blue white flex flex-column justify-center align-center p4">
   <img src="images/Learn21.svg" alt="Learn21: Tomorrow Today" />
   <div class="h2 thin mb4 center">
     <nobr>The school of tomorrow...</nobr> Today</div>
-  <div class="control-buttons">
-    <a href="http://demo.learn21.school" class="border rounded px3 py2 white h3 semi-bold button">See the demo</a>
-    <span class="px3 py2">OR</span>
-    <div class="school-selector">
-      <a href="javascript:void(0)" class="border rounded px3 py2 white h3 semi-bold button block">Select the school</a>
-      <div class="schools-list bg-white rounded">
-        <a class="school-item p2" href="http://bangneaw.learn21.school">Bangneaw</a>
-        <a class="school-item p2" href="http://muangphuket.learn21.school">Muang Phuket</a>
-        <a class="school-item p2" href="http://watkhajon.learn21.school">Wat Khajorn</a>
-        <a class="school-item p2" href="http://plukpanya.learn21.school">Plukpanya</a>
-        <a class="school-item p2" href="http://samkong.learn21.school">Samkong</a>
+  <div class="flex flex-column md-flex-row flex-wrap align-center justify-center">
+    <div>
+      <a href="http://demo.learn21.school" class="block border rounded px3 py2 white h3 semi-bold button">See the demo</a>
+    </div>
+    <div class="px3 py2">OR</div>
+    <div class="rounded button">
+      <div class="invisible-select">
+        <div class="border rounded px3 py2 white h3 semi-bold button">Select the school</div>
+        <select onchange="javascript:school(this)">
+          <option value="">---</option>
+          <option value="https://bangneaw.learn21.school">Bangneaw</option>
+          <option value="https://muangphuket.learn21.school">Muang Phuket</option>
+          <option value="https://watkhajon.learn21.school">Wat Khajon</option>
+          <option value="https://plukpanya.learn21.school">Plukpanya</option>
+          <option value="https://samkong.learn21.school">Samkong</option>
+        </select>
       </div>
     </div>
   </div>
@@ -334,10 +342,10 @@
           <a class="white" href="mailto:info@learn21.school">info@learn21.school</a>
           <br />
           <small>
-          <small class="muted">
-            <a href="/terms">Terms and Conditions</a>
-            <a href="/privacy">Privacy policy</a>
-          </small>
+            <small class="muted">
+              <a href="/terms">Terms and Conditions</a>
+              <a href="/privacy">Privacy policy</a>
+            </small>
           </small>
         </div>
       </div>
