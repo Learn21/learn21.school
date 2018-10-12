@@ -179,10 +179,14 @@ h3, .h3 { font-size: 1.5rem; }
 }
 
 .survey-box{
-  transform: rotate(15deg);
+  transform: rotate(18deg);
   box-shadow: 0 0 3rem rgba(0, 0, 0, 0.5);
-  max-width: 25rem;;
+  max-width: 20rem;
 }
 .survey-box img {
   max-width: 20rem;
+  margin: auto;
+}
+.overflow-wrapper{
+  overflow: hidden;
 }
