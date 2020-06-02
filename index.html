@@ -1,4 +1,4 @@
-<!doctype HTML>
+<!doctype html>
 <html>
   <head>
     <link rel="stylesheet" href="learn21.css?4" />
@@ -11,8 +11,11 @@
   <body>
     <div class="bg-blue white banner-box overflow-wrapper">
       <div class="absolute p2 top-0 right-0 z1">
-        <a class="bold regular" href="/"><b>En</b></a>
-        <a class="muted regular" href="/th">ไทย</a>
+        <span class="px1">
+          <a class="bold regular" href="/"><b>En</b></a>
+          <a class="muted regular" href="/th">ไทย</a>
+        </span>
+        <a class="regular rounded border button px1 py bold" href="https://online.learn21.school/login">Login</a>
       </div>
       <div class="flex flex-column justify-center align-center p4">
         <img src="/images/Learn21.svg" alt="Learn21: Tomorrow Today" />
@@ -20,24 +23,26 @@
           <nobr>The school of tomorrow...</nobr> Today
         </div>
         <div class="flex flex-column md-flex-row flex-wrap align-center justify-center">
-          <div>
-            <a href="http://demo.learn21.school" class="block border rounded px3 py2 white h3 semi-bold button">See the demo</a>
+          <div class="px2">
+            <a href="https://online.learn21.school/registration" class="block border rounded px3 py2 white h3 semi-bold button">Register</a>
           </div>
-          <div class="px3 py2">OR</div>
-          <div class="rounded button">
-            <div class="invisible-select">
-              <div class="border rounded px3 py2 white h3 semi-bold button">Select the school</div>
-              <select onchange="javascript:school(this)">
-                <option value="">---</option>
-                <option value="https://abpk.learn21.school">Anuban Phuket</option>
-                <option value="https://bangneaw.learn21.school">Ban Bangneaw</option>
-                <option value="https://muslimwitthaya.learn21.school">Muslim Witthaya</option>
-                <option value="https://satitpkru.learn21.school">Satit Rajabhat</option>
-                <option value="https://thasala.learn21.school">Thasala</option>
-                <option value="https://tuadtong.learn21.school">Ban Tuad Tong</option>
-                <option value="https://watphramahathat.learn21.school">Wat Phra Mahathat</option>
-              </select>
-            </div>
+          <div class="px2">
+            <a href="https://demo.learn21.school" class="block rounded px3 py2 white h3 semi-bold button">See the demo</a>
+          </div>
+        </div>
+        <div class="rounded button my2 hide">
+          <div class="invisible-select">
+            <div class="rounded px2 py1 white button">Select the school</div>
+            <select onchange="javascript:school(this)">
+              <option value="">---</option>
+              <option value="https://abpk.learn21.school">Anuban Phuket</option>
+              <option value="https://bangneaw.learn21.school">Ban Bangneaw</option>
+              <option value="https://muslimwitthaya.learn21.school">Muslim Witthaya</option>
+              <option value="https://satitpkru.learn21.school">Satit Rajabhat</option>
+              <option value="https://thasala.learn21.school">Thasala</option>
+              <option value="https://tuadtong.learn21.school">Ban Tuad Tong</option>
+              <option value="https://watphramahathat.learn21.school">Wat Phra Mahathat</option>
+            </select>
           </div>
         </div>
       </div>
