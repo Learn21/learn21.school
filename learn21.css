@@ -70,6 +70,7 @@ a.white { color: white; }
 .align-center { align-items: center; }
 .align-end { align-items: flex-end; }
 .center { text-align: center; }
+.auto { flex: auto }
 .flex { display: flex; }
 .flex-column { flex-direction: column; }
 .flex-wrap { flex-wrap: wrap; }
